@@ -33,37 +33,37 @@ export const FADE_IN_ANIMATION_SETTINGS = {
 
 export const HOME_HOSTNAMES = new Set([
   // comment for better diffs
-  "dub.sh",
+  "ubal.do",
   "localhost",
   "localhost:3000",
 ]);
 
 export const APP_HOSTNAMES = new Set([
-  "app.dub.sh",
+  "app.ubal.do",
   "app.localhost:3000",
-  "preview.dub.sh",
+  "preview.ubal.do",
 ]);
 
 export const DEFAULT_REDIRECTS = {
-  home: "https://dub.sh",
-  dub: "https://dub.sh",
-  signin: "https://app.dub.sh/login",
-  login: "https://app.dub.sh/login",
-  register: "https://app.dub.sh/register",
-  signup: "https://app.dub.sh/register",
-  app: "https://app.dub.sh",
-  dashboard: "https://app.dub.sh",
-  links: "https://app.dub.sh/links",
-  settings: "https://app.dub.sh/settings",
-  welcome: "https://app.dub.sh/welcome",
+  home: "https://ubal.do",
+  dub: "https://ubal.do",
+  signin: "https://app.ubal.do/login",
+  login: "https://app.ubal.do/login",
+  register: "https://app.ubal.do/register",
+  signup: "https://app.ubal.do/register",
+  app: "https://app.ubal.do",
+  dashboard: "https://app.ubal.do",
+  links: "https://app.ubal.do/links",
+  settings: "https://app.ubal.do/settings",
+  welcome: "https://app.ubal.do/welcome",
   slack: "https://dub.slack.com",
   discord: "https://twitter.com/dubdotsh", // placeholder for now
-  tags: "https://dub.sh/changelog/introducing-tags",
+  tags: "https://ubal.do/changelog/introducing-tags",
 };
 
 export const REDIRECT_HEADERS = {
   headers: {
-    "x-powered-by": "Dub.sh - Link management for modern marketing teams",
+    "x-powered-by": "ubal.do - Link management for modern marketing teams",
   },
 };
 
@@ -90,7 +90,7 @@ export const SPECIAL_APEX_DOMAINS = {
 export const DEFAULT_LINK_PROPS = {
   key: "github",
   url: "https://github.com/steven-tey/dub",
-  domain: "dub.sh",
+  domain: "ubal.do",
   archived: false,
   expiresAt: null,
   password: null,
