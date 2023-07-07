@@ -17,7 +17,6 @@ export default function Home() {
       <Demo />
       <Logos />
       <Globe />
-      <Stats />
       <Features />
       <Testimonials />
       <OSS />
